@@ -17,8 +17,9 @@ def bonus
           {name: "Mercutio", age: "18", attitude: "hot-headed"}, 
           {name: "Nurse", age: "44", attitude: "worried"}
       ]
-   }}
- { epic_tragedy[:montague][:hero][:status] = "dead",
+   }
+  }
+ epic_tragedy[:montague][:hero][:status] = "dead",
 epic_tragedy[:capulet][:heroine][:status] = "dead"}
 
 end
